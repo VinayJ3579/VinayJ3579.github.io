@@ -1,0 +1,14 @@
+*{
+    text-align:center;
+    font-family: Comic;
+}
+body{
+  background-color:pink;
+}
+img{
+    max-height:10%;
+    max-width:20%;
+}
+footer{
+    background-color:red;
+}
