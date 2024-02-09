@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ITSC-3135 || forms</title>
+        <link rel="stylesheet" href="Styles/itis-forms.css">
+    </head>
+    <body>
+
+            <header>
+                <h1>Vinay Joshi's Virtuous Anaconda|| ITIS 3135 survey form</h1>
+                <nav>
+                    <a href="./">Home</a>||
+                    <a href="introduction.html">Introduction</a>||
+                    <a href="contract.html">Contract</a>
+                </nav>
+            </header>
+            <main>
+                <form method="post" action="#">
+                    <section role="region" aria-labelledby="student-info">
+                        <h2 id="student-info">Student Info</h2>
+                        <div class="info">
+                            <label for="student-name">Name:</label>
+                            <input type="text" name="student-name" id="student-name" placeholder="name" required/>
+                        </div>
+                        <div class="info">
+                            <label for="student-email">Email:</label>
+                            <input type="email" name="student-email" id="student-email" placeholder="example@email.com" required/>
+                        </div>
+                        <div class="info">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"  required>
+
+                        </div>
+
+                    </section>
+                    <section role="region" aria-labelledby="student-favourite">
+                        <h2 id="student-favorite">Who is your favorite singer?</h2>
+                        <ul>
+                            <li>
+                                <label for="Kanye"><input type="checkbox" id="Kanye">Kanye West</label>
+                            </li>
+                            <li>
+                                <label for="Taylor"><input type="checkbox" id="Taylor">Taylor Swift</label>
+                            </li>
+                            <li>
+                                <label for="Eminem"><input type="checkbox" id="Eminem">Eminem</label>
+                            </li>
+                            <li>
+                                <label for="Tupac"><input type="checkbox" id="Tupac">Tupac</label>
+                            </li>
+                            <li>
+                                <label for="Drake"><input type="checkbox" id="Drake">Drake</label>
+                            </li>
+                        </ul>
+                    </section>
+                    <section role="region" aria-labelledby="student-question">
+                        <h2>Do you like the Bee Movie?</h2>
+                        <fieldset name="response">
+                            <ul>
+                                <li>
+                                    <label for="option1"><input id="option1" type="radio" name="response" checked>Yes</label>
+                                </li>
+                                <li>
+                                    <label for="option2"><input id="option2" type="radio" name="response">No</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </section>
+                    <section role="region" aria-labelledby="student-option">
+                        <div class="class-question">
+                            <div>
+                                <h2>Do you like this class?</h2>
+                                <label for="opinion">
+                                <select id="opinion">
+                                    <option value="">Select an option</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <button type="reset" class="styled-button"> Reset</button>
+                    <button type="submit" class="styled-button">Send</button>
+                </form>
+            </main>
+            <footer>
+                <nav>
+                    <a href="https://webpages.charlotte.edu/vjoshi9/" >My Charlotte page</a> ||
+                    <a href="https://vinayj3579.github.io/">GitHub Page</a> ||
+                    <a href="https://github.com/VinayJ3579" >GitHub</a> ||
+                    <a href="https://www.codecademy.com/profiles/dev8751316997">CodeAcademy</a> ||
+                    <a href="https://www.freecodecamp.org/VinayJ3579" >FreeCodeCamp</a> ||
+                    <a href="https://www.linkedin.com/in/vinayjoshi23/" >LinkedIn</a> ||
+                    <a href="https://github.com/VinayJ3579/VinayJ3579.github.io">GitHub repository</a>
+                    <div>
+                        <p>Page built by <a href="https://webpages.charlotte.edu/vjoshi9/ITIS-3135/virtuousanaconda.inc.html">Virtuous Anaconda .Inc</a></p>
+                        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://webpages.charlotte.edu/vjoshi9/ITIS-3135/" id="validation_link_css">
+                            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+                        </a>
+                        <a href="https://validator.w3.org/check?uri=https://webpages.charlotte.edu/vjoshi9/ITIS-3135/" id="validation_link_html">
+                            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+    </body>
+</html>

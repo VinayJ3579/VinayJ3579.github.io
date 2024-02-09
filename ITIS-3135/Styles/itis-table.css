@@ -1,0 +1,55 @@
+body{
+  background-color:#AF9483;
+  font-family:Arial, sans-serif;
+}
+a{
+    text-decoration:none;
+    color:#9c2761;
+}
+a:hover{
+    color:#e2c15f;
+}
+header,footer{
+    text-align:center;
+}
+.table-info{
+
+        padding-right:auto;
+    }
+ol li{
+        padding-bottom:5px;
+    }
+table {
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+.people-name, .people-email, .people-salary{
+    font-weight:bold;
+}
+.column1{
+    background-color:#ed9f9f;
+}
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+th {
+    background-color: #f2f2f2;
+}
+footer{
+padding-top:20px;
+}
+.sales,.leader1{
+    background-color:#ffde79;
+}
+.developers,.leader2{
+    background-color:#93c47d;
+}
+.management,.leader3{
+    background-color:#8a71c9;
+}
+.budget{
+    text-align:right;
+}
