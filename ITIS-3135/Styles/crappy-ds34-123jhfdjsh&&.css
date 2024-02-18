@@ -1,0 +1,92 @@
+*{
+    display:flex;
+    font-family:"Comic Sans MS";
+}
+h1{
+    color:rgba(23,45,108,30px);
+    transform:rotate(23deg);
+    top:120px;
+    position:absolute;
+}
+
+
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg); /* Rotate from 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotate to 360 degrees */
+  }
+}
+.grog{
+    transform:rotate(-45deg);
+    font-size:24px;
+    padding:20%;
+    background: repeating-linear-gradient(
+              var(--building-color2),
+              var(--building-color2) 6%,
+              var(--window-color2) 6%,
+              var(--window-color2) 9%
+            );
+            border:30px solid red;
+}
+ .same{
+    margin-right: 30px ;
+    border: 2px solid #acdb82;
+    transform  : rotate(-90deg);
+    background:linear-gradient(-90deg,#55680D, #71F53E, #116C31);
+
+}
+.grammy{
+background:linear-gradient(
+                         red,
+                         blue 6%,
+                        green 6%,
+                         white 9%
+                       );
+    width:600px;
+    height:700px;
+}
+img{
+    transform:rotate(-160deg);
+}
+.frog{
+    width:600px;
+        height:700px;
+        transform :rotate(90deg);
+}
+body{
+ background:repeating-linear-gradient(
+                  90deg,
+                  white,
+                  pink 10%,
+                  orange 10%,
+                  red 15%
+                ),
+                repeating-linear-gradient(
+                  green,
+                  purple 10%,
+                  blue 10%,
+                  black 90%
+                );
+    color:cornsilk;
+}
+section {
+    color:#674ea7;
+    font-family:arial;
+}
+.ranfo{
+    background:linear-gradient(-34deg,#47362D, #71452E, #116C31);
+    font-family: sans-serif;
+    color:brown;
+}
+.box{
+     width: 200px; /* Width of the box */
+      height: 200px; /* Height of the box */
+      background: linear-gradient(45deg, #55680D, #71F53E, #116C31); /* Linear gradient background */
+      background-size: 600% 600%;
+}
+header{
+    color:black;
+}
