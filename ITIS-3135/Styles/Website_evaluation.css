@@ -1,0 +1,21 @@
+h2, h3{
+text-align:center;
+}
+ a{
+ color: #5b8e64;
+}
+.web{
+    display:block;
+
+}
+section,ul,.k{
+padding-left: 15%;
+ padding-right:15%;
+}
+
+body{
+
+ background: #cceaeb;
+ font:Roboto, arial;
+
+}
