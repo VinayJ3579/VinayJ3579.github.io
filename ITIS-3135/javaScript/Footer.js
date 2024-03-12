@@ -1,12 +1,3 @@
-
-document.getElementById("header").innerHTML = `<h1>Vinay Joshi's Virtuous Anaconda|| ITIS 3135</h1>
-                                                   			<nav>
-                                                   				<a href="./">Home</a> ||
-                                                   				<a href="introduction.html">Introduction</a> ||
-                                                   				<a href="contract.html">Contract</a> ||
-                                                   				<a href="website_evaluation.html">Website Evaluation</a>
-                                                   			</nav>`;
-document.getElementById("header").style.textAlign = "center";
 document.getElementById("footer").style.textAlign = "center";
 
 document.getElementById("footer").innerHTML = `<nav>
@@ -18,7 +9,7 @@ document.getElementById("footer").innerHTML = `<nav>
                                                    				<a href="https://www.linkedin.com/in/vinayjoshi23/" >LinkedIn</a> ||
                                                    				<a href="https://github.com/VinayJ3579/VinayJ3579.github.io">GitHub repository</a>
                                                    				<div>
-                                                   					<p>Page built by <a href="/ITIS-3135/virtuousanacondainc.html">Virtuous Anaconda .Inc</a></p>
+                                                   					<p>Page built by <a href="virtuousanaconda.inc.html">Virtuous Anaconda .Inc </a>© 2023 <a href="https://www.freecodecamp.org/certification/VinayJ3579/responsive-web-design">Certified in RWD</a></p>
                                                    					<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://webpages.charlotte.edu/mhoang4/itis3135/" id="validation_link_css">
                                                    						<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
                                                    					</a>
@@ -27,4 +18,3 @@ document.getElementById("footer").innerHTML = `<nav>
                                                    					</a>
                                                    				</div>
                                                    			</nav>`;
-
