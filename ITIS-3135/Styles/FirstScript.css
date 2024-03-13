@@ -1,0 +1,12 @@
+body{
+ background: #cceaeb;
+ font-family:Roboto, arial;
+ text-align:center;
+}
+a{
+ color: #5b8e64;
+}
+button{
+ background: linear-gradient(#00ffff 50%, #ffa500 30%, white 20%);
+ border:none;
+}
